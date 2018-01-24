@@ -16,5 +16,5 @@ while True:
     if waitKey(50) & 0xFF == ord('s'):
         break
 
-cv2.realease()
+capture.realease()
 cv2.destroyAllWindows()
